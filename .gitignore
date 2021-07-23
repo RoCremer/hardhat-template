@@ -1,0 +1,13 @@
+# Node files
+/node_modules
+
+# Build files
+/dist 
+/src/types/contracts
+
+# Environment files
+/.env
+
+# Hardhat files
+/cache
+/artifacts
