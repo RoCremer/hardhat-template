@@ -11,3 +11,6 @@
 # Hardhat files
 /cache
 /artifacts
+
+# OSX files
+.DS_Store
