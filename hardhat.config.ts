@@ -1,6 +1,7 @@
 import {
   INFURA_API_KEY,
   WALLET_PRIVATE_KEY,
+  ETHERSCAN_API_KEY,
   COINMARKETCAP_PUBLIC_KEY,
 } from "./src/lib/config";
 import "tsconfig-paths/register";
@@ -9,6 +10,7 @@ import { task } from "hardhat/config";
 import "@nomiclabs/hardhat-ethers";
 import "@nomiclabs/hardhat-waffle";
 import "@nomiclabs/hardhat-solhint";
+import "@nomiclabs/hardhat-etherscan";
 import "@typechain/hardhat";
 import "hardhat-gas-reporter";
 
@@ -47,6 +49,9 @@ const config: HardhatUserConfig = {
   typechain: {
     outDir: "./src/types/contracts",
     target: "ethers-v5",
+  },
+  etherscan: {
+    apiKey: ETHERSCAN_API_KEY
   },
   gasReporter: {
     currency: "USD",
