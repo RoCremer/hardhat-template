@@ -42,4 +42,3 @@ jobs:
         with:
           name: eslint_report.json
           path: eslint_report.json
-          

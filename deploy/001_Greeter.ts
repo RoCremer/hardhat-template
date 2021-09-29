@@ -7,7 +7,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
 
   await deployments.deploy("Greeter", {
     from: deployer,
-    args: [],
+    args: ["Hello, world!"],
   });
 };
 export default func;
