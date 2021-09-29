@@ -11,6 +11,9 @@ eslint_report.json
 # Node files
 /node_modules
 
+# Documentation
+/docs
+
 # Build files
 /dist 
 
