@@ -27,6 +27,12 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
   },
-  "include": ["./test/**/*", "./deploy/**/*", "./src/**/*", ".src/**/*.json"],
+  "include": [
+    "./scripts/**/*",
+    "./deploy/**/*",
+    "./test/**/*",
+    "./src/**/*",
+    ".src/**/*.json"
+  ],
   "files": ["./hardhat.config.ts"]
 }

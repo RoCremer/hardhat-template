@@ -1,4 +1,5 @@
 #Coverage
+/coverage
 .nyc_output
 
 # Hardhat
