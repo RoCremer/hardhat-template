@@ -42,7 +42,6 @@
     "ethereum-waffle": "^3.4.0",
     "hardhat": "^2.6.4",
     "hardhat-deploy": "^0.9.2",
-    "hardhat-docgen": "^1.1.2",
     "hardhat-gas-reporter": "^1.0.4",
     "hardhat-tracer": "^1.0.0-alpha.6",
     "hardhat-watcher": "^2.1.1",
