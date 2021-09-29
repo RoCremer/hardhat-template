@@ -11,6 +11,7 @@ import "hardhat-deploy";
 import "hardhat-watcher";
 import "solidity-coverage";
 import "hardhat-docgen";
+import "hardhat-tracer";
 import dotenv from "dotenv";
 
 dotenv.config();
