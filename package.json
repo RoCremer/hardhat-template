@@ -15,6 +15,7 @@
     "test:w": "hardhat watch test",
     "format": "prettier --write .",
     "cover": "nyc yarn test",
+    "cover:sol": "HARDHAT_DEPLOY_FIXTURE=true hardhat coverage",
     "lint": "yarn eslint --fix .",
     "lint:report": "yarn eslint --ext .ts --output-file eslint_report.json --format json ."
   },
@@ -47,6 +48,7 @@
     "prettier": "^2.4.1",
     "prettier-plugin-solidity": "^1.0.0-beta.18",
     "solhint-plugin-prettier": "^0.0.5",
+    "solidity-coverage": "^0.7.17",
     "ts-node": "^10.2.1",
     "tsconfig-paths": "^3.11.0",
     "typechain": "^5.1.2",
