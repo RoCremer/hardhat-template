@@ -1,26 +1,42 @@
+# Logs
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ESLint files
+eslint_report.json
+
 # Node files
 /node_modules
 
+# Documentation
+/docs
+
 # Build files
 /dist 
-/src/types/contracts
 
 # Environment files
+/.vscode
+/.idea
 /.env
+/.cache
 
 # Hardhat files
 /cache
 /artifacts
+/deployments/hardhat/
+/deployments/localhost/
 
 # OSX files
 .DS_Store
 
-# VSC files
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
-.history/
+# Coverage files
+/.nyc_output
+/coverage
+coverage.json
 
+# Typechain files
+/src/types/contracts/**
+/src/types/abi/**

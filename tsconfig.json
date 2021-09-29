@@ -1,15 +1,38 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true,
+    "composite": true,
     "outDir": "dist",
-    "resolveJsonModule": true,
-    "baseUrl": ".",
-    "paths": { "~/*": ["./src/*"] }
+    "baseUrl": "src",
+    "target": "ES2019",
+    "module": "CommonJS",
+    "allowJs": false,
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
   },
-  "include": ["./scripts", "./test"],
-  "exclude": ["node_modules"],
+  "include": [
+    "./scripts/**/*",
+    "./deploy/**/*",
+    "./test/**/*",
+    "./src/**/*",
+    ".src/**/*.json"
+  ],
   "files": ["./hardhat.config.ts"]
 }
